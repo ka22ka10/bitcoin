@@ -8,13 +8,13 @@ in this container will run nginx and flask application that runs a simple html p
 
 # how to run this app:
 1)
-u need to add provider.tf file that contains:
+    u need to add provider.tf file that contains:
 
-provider "aws" {
-    region = "eu-central-1"
-    access_key = "*****************"
-    secret_key = "*****************"
-}
+    provider "aws" {
+      region = "eu-central-1"
+        access_key = "*****************"
+         secret_key = "*****************"
+    }
 
  with your access key and secret key.
  
@@ -31,7 +31,7 @@ provider "aws" {
   http://ip-addr:5000/
   
   
-  4)**************************************************************************************************************important
+  4)-------------------------------------------------------------------------------------------------------------------------important
   
   after you finish dont forget:
   -> terraform destroy
