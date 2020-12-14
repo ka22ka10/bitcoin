@@ -8,7 +8,7 @@ in this container will run nginx and flask application that runs a simple html p
 
 # how to run this app:
 1)
-    u need to add provider.tf file that contains:
+    u need to edit providerr.tf file that contains:
 
     provider "aws" {
       region = "eu-central-1"
@@ -16,7 +16,7 @@ in this container will run nginx and flask application that runs a simple html p
          secret_key = "*****************"
     }
 
- with your access key and secret key.
+ insert your access key and secret key.
  
  
  2)
